@@ -5,6 +5,7 @@ h1 {
 img {
     width: 250px;
     height: 250px;
+    padding: 4px;
 }
 
 .topnav {
@@ -46,7 +47,7 @@ img {
 
 .tab button {
     display: block;
-    background-color:#04AA6D;
+    background-color: #04AA6D;
     color: white;
     padding: 22px 16px;
     width: 100%;
@@ -55,9 +56,11 @@ img {
     text-align: left;
     cursor: pointer;
 }
+
 h3 {
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -122,12 +125,15 @@ h2 {
     font-family: inherit;
     margin: 0;
 }
+
 /* For dropdown tab*/
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
     background-color: red;
     color: white;
 }
+
 /* For hovering tab*/
 
 .dropdown-content {
@@ -148,23 +154,27 @@ h2 {
     float: none;
     text-align: left;
 }
+
 /* For dropdown content*/
 
 .dropdown-content a:hover {
     background-color: red;
 }
+
 /* For hovering dropdown content*/
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .navbar {
     overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color:yellow;
+    background-color: yellow;
 }
+
 .navbar a {
     float: left;
     display: block;
@@ -173,12 +183,14 @@ h2 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  .navbar a:hover {
+}
+
+.navbar a:hover {
     background-color: red;
     color: white;
-  }
-  .navbar a.active {
+}
+
+.navbar a.active {
     background-color: #04AA6D;
     color: white;
-  }
+}
