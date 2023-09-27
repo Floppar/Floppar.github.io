@@ -1,5 +1,5 @@
 h1 {
-    color: lavender;
+    color: black;
 }
 
 img {
@@ -13,12 +13,17 @@ img {
 }
 
 .navbar {
-    width: 100%;
     background-color: yellow;
-    overflow: auto;
+    overflow: hidden;
 }
 
-
+.navbar a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
 .topnav a {
     float: left;
@@ -41,7 +46,7 @@ img {
 
 .tab button {
     display: block;
-    background-color: green;
+    background-color:#04AA6D;
     color: white;
     padding: 22px 16px;
     width: 100%;
@@ -49,6 +54,12 @@ img {
     outline: none;
     text-align: left;
     cursor: pointer;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .tab button:hover {
@@ -78,10 +89,6 @@ img {
     grid-template-columns: auto auto auto;
 }
 
-#middlebox {
-    border: 2px solid red;
-}
-
 .button {
     background-color: aqua;
     width: 100px;
@@ -90,3 +97,88 @@ img {
     text-align: center;
     border: 1px solid black;
 }
+
+
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: green;
+    padding: 16px;
+    font-size: 16px;
+    border: #04aa6d;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+/* For dropdown tab*/
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    color: white;
+}
+/* For hovering tab*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    background-color: #04AA6D;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    float: none;
+    text-align: left;
+}
+/* For dropdown content*/
+
+.dropdown-content a:hover {
+    background-color: red;
+}
+/* For hovering dropdown content*/
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:yellow;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #04AA6D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background-color: red;
+    color: white;
+  }
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
