@@ -2,52 +2,60 @@ h1 {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 img {
     width: 250px;
     height: 250px;
     padding: 4px;
 }
 
-body {
-    background-image: url('images/is.png');
-} 
 
-.topnav {
-    background-color: yellow;
-    overflow: hidden;
-}
 
 .navbar {
     background-color: yellow;
     overflow: hidden;
 }
 
-.navbar a {
-    float: left;
-    font-size: 16px;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    .navbar a {
+      float: left;
+        font-size: 16px;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+.topnav {
+    background-color: yellow;
+    overflow: hidden;
 }
 
-.topnav a {
-    float: left;
-    color: green;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+    .topnav a {
+        float: left;
+        color: green;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
 
-.topnav a:hover {
-    background-color: red;
-    color: black;
-}
+        .topnav a:hover {
+            background-color: lightblue;
+            color: black;
+        }
 
-.topnav a.active {
-    background-color: #04aa6d;
-    color: white;
-}
+        .topnav a.active {
+            background-color: #04aa6d;
+            color: white;
+        }
+
 
 .tab button {
     display: block;
@@ -61,21 +69,13 @@ body {
     cursor: pointer;
 }
 
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-}
+    .tab button:hover {
+        background-color: lightblue;
+    }
 
-h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.tab button:hover {
-    background-color: red;
-}
-
-.tab button.active {
-    background-color: #ccc;
-}
+    .tab button.active {
+        background-color: #ccc;
+    }
 
 .tabcontent {
     float: left;
@@ -87,24 +87,16 @@ h2 {
     display: none;
 }
 
+
 .subjectBox {
     border: 2px solid green;
 }
 
+
 .subjectContainer {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-.button {
-    background-color: aqua;
-    width: 100px;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    border: 1px solid black;
-}
-
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
 
 
 .dropbtn {
@@ -115,30 +107,43 @@ h2 {
     border: #04aa6d;
 }
 
+.dropbtnact {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: #04aa6d;
+}
+/*When you are in a side from the dropdown menu*/
+
 .dropdown {
     float: left;
     overflow: hidden;
 }
 
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
+    .dropdown a.active {
+        background-color: yellow;
+        color: green;
+        border: solid black;
+    }
 
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
 /* For dropdown tab*/
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: lightblue;
     color: white;
 }
-
-/* For hovering tab*/
+/* For hovering over a tab*/
 
 .dropdown-content {
     display: none;
@@ -149,27 +154,27 @@ h2 {
     z-index: 1;
 }
 
-.dropdown-content a {
-    color: white;
-    background-color: #04AA6D;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    float: none;
-    text-align: left;
-}
-
+    .dropdown-content a {
+        color: white;
+        background-color: #04AA6D;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        float: none;
+        text-align: left;
+    }
 /* For dropdown content*/
 
-.dropdown-content a:hover {
-    background-color: red;
-}
+    .dropdown-content a:hover {
+        background-color: lightblue;
+    }
+    /* For hovering on dropdown content*/
 
-/* For hovering dropdown content*/
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+
 
 .navbar {
     overflow: hidden;
@@ -179,22 +184,22 @@ h2 {
     background-color: yellow;
 }
 
-.navbar a {
-    float: left;
-    display: block;
-    color: #04AA6D;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+    .navbar a {
+        float: left;
+        display: block;
+        color: #04AA6D;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
 
-.navbar a:hover {
-    background-color: red;
-    color: white;
-}
+        .navbar a:hover {
+            background-color: lightblue;
+            color: white;
+        }
 
-.navbar a.active {
-    background-color: #04AA6D;
-    color: white;
-}
+        .navbar a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
