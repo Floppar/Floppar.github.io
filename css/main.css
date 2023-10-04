@@ -16,7 +16,9 @@ img {
     height: 250px;
     padding: 4px;
 }
-
+.img1 {
+    width: auto;
+}
 
 
 .navbar {
@@ -90,12 +92,14 @@ img {
 
 .subjectBox {
     border: 2px solid green;
+    padding-left: 10px;
 }
 
 
 .subjectContainer {
-        display: grid;
+        display:grid;
         grid-template-columns: auto auto auto;
+        padding-bottom: 50px;
     }
 
 
@@ -203,3 +207,8 @@ img {
             background-color: #04AA6D;
             color: white;
         }
+
+.aboutbox {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
