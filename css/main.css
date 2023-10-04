@@ -19,7 +19,9 @@ img {
 .img1 {
     width: auto;
 }
-
+.reach {
+    background-color: #04AA6D;color: azure;padding: auto;width: 150px;
+}
 
 .navbar {
     background-color: yellow;
