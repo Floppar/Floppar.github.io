@@ -16,11 +16,27 @@ img {
     height: 250px;
     padding: 4px;
 }
+
 .img1 {
     width: auto;
 }
+
 .reach {
-    background-color: #04AA6D;color: azure;padding: auto;width: 150px;
+    background-color: #04AA6D;
+    color: azure;
+    padding: auto;
+    width: 150px;
+}
+
+video {
+    width: auto;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.videocontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
 .navbar {
@@ -28,37 +44,37 @@ img {
     overflow: hidden;
 }
 
-    .navbar a {
-      float: left;
-        font-size: 16px;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+.navbar a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
 .topnav {
     background-color: yellow;
     overflow: hidden;
 }
 
-    .topnav a {
-        float: left;
-        color: green;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
+.topnav a {
+    float: left;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
-        .topnav a:hover {
-            background-color: lightblue;
-            color: black;
-        }
+.topnav a:hover {
+    background-color: lightblue;
+    color: black;
+}
 
-        .topnav a.active {
-            background-color: #04aa6d;
-            color: white;
-        }
+.topnav a.active {
+    background-color: #04aa6d;
+    color: white;
+}
 
 
 .tab button {
@@ -73,13 +89,13 @@ img {
     cursor: pointer;
 }
 
-    .tab button:hover {
-        background-color: lightblue;
-    }
+.tab button:hover {
+    background-color: lightblue;
+}
 
-    .tab button.active {
-        background-color: #ccc;
-    }
+.tab button.active {
+    background-color: #ccc;
+}
 
 .tabcontent {
     float: left;
@@ -100,10 +116,10 @@ img {
 
 
 .subjectContainer {
-        display:grid;
-        grid-template-columns: auto auto auto;
-        padding-bottom: 50px;
-    }
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 50px;
+}
 
 
 .dropbtn {
@@ -121,6 +137,7 @@ img {
     font-size: 16px;
     border: #04aa6d;
 }
+
 /*When you are in a side from the dropdown menu*/
 
 .dropdown {
@@ -128,21 +145,22 @@ img {
     overflow: hidden;
 }
 
-    .dropdown a.active {
-        background-color: yellow;
-        color: green;
-        border: solid black;
-    }
+.dropdown a.active {
+    background-color: yellow;
+    color: green;
+    border: solid black;
+}
 
-    .dropdown .dropbtn {
-        font-size: 16px;
-        border: none;
-        outline: none;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-    }
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
 /* For dropdown tab*/
 
 .navbar a:hover,
@@ -150,6 +168,7 @@ img {
     background-color: lightblue;
     color: white;
 }
+
 /* For hovering over a tab*/
 
 .dropdown-content {
@@ -161,25 +180,27 @@ img {
     z-index: 1;
 }
 
-    .dropdown-content a {
-        color: white;
-        background-color: #04AA6D;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        float: none; 
-        text-align: left;
-    }
+.dropdown-content a {
+    color: white;
+    background-color: #04AA6D;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    float: none;
+    text-align: left;
+}
+
 /* For dropdown content*/
 
-    .dropdown-content a:hover {
-        background-color: lightblue;
-    }
-    /* For hovering on dropdown content*/
+.dropdown-content a:hover {
+    background-color: lightblue;
+}
 
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
+/* For hovering on dropdown content*/
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 
 
@@ -191,25 +212,25 @@ img {
     background-color: yellow;
 }
 
-    .navbar a {
-        float: left;
-        display: block;
-        color: #04AA6D;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
+.navbar a {
+    float: left;
+    display: block;
+    color: #04AA6D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
-        .navbar a:hover {
-            background-color: lightblue;
-            color: white;
-        }
+.navbar a:hover {
+    background-color: lightblue;
+    color: white;
+}
 
-        .navbar a.active {
-            background-color: #04AA6D;
-            color: white;
-        }
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
 
 .aboutbox {
     margin-top: 200px;
