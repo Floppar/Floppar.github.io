@@ -95,6 +95,7 @@ img {
 .subjectBox {
     border: 2px solid green;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -166,7 +167,7 @@ img {
         padding: 12px 16px;
         text-decoration: none;
         display: block;
-        float: none;
+        float: none; 
         text-align: left;
     }
 /* For dropdown content*/
