@@ -1,0 +1,12 @@
+body {
+    background-color: brown;
+}
+
+img {
+    width: 960px;
+    height: 960px;
+    border: 10px solid white;
+    border-bottom: 40px solid white;
+    box-shadow: 10px 10px 5px black;
+    margin-bottom: 50px;
+}
