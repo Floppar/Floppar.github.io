@@ -28,18 +28,9 @@ a {
 }
 
 body {
-    background-image: url("img/is.png");
+    background-image: url("img/coffee-shop-cat.gif");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.valigjen {
-    border-radius: 10px;
-    border: solid 2px black;
-    padding: 5px;
-    background-color: gold;
-    font-size: 20px;
-    margin: 30px;
 }
 
 div {
@@ -54,6 +45,12 @@ button {
     margin-top: 5px;
 }
 
+input[type=radio] {
+    border: 0px;
+    width: 10%;
+    height: 2em;
+}
+
 /*-------------------------------------*/
 
 .game {
@@ -63,6 +60,15 @@ button {
     width: 100vw;
     justify-content: center;
     align-items: center;
+}
+
+.valigjen {
+    border-radius: 10px;
+    border: solid 2px black;
+    padding: 5px;
+    background-color: gold;
+    font-size: 20px;
+    margin: 30px;
 }
 
 .send {
@@ -218,11 +224,7 @@ button {
     border: solid 2px black;
 }
 
-input[type=radio] {
-    border: 0px;
-    width: 10%;
-    height: 2em;
-}
+
 
 .tilbake {
     border: solid 2px orange;
