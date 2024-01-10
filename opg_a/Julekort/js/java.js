@@ -16,7 +16,6 @@ function prev(){
     let overskrift = document.getElementById("overskrift").value;
     let til = document.getElementById("til").value;
     let frå = document.getElementById("frå").value;
-    window.addEventListener("load", startup, false);
 
 
 
@@ -29,29 +28,6 @@ function prev(){
     till.innerHTML = til;
     fråå.innerHTML = frå;
 
-    let fargeval;
-    const defaultColor = "#0000ff";
-    
-    function startup() {
-        colorPicker = document.querySelector("#fargeval");
-        colorPicker.value = defaultColor;
-        colorPicker.addEventListener("input", updateFirst, false);
-        colorPicker.addEventListener("change", updateAll, false);
-        colorPicker.select();
-      }
-      
-      function updateFirst(event) {
-        const fillStyle = document.querySelector("fillStyle");
-        if (fillStyle) {
-          fillStyle.style.color = event.target.value;
-        }
-      }
-      
-      function updateAll(event) {
-        document.querySelectorAll("fillStyle").forEach((fillStyle) => {
-          fillStyle.style.color = event.target.value;
-        });
-      }
 
     ctx.fillStyle = "rgb(33, 64, 39)";
     ctx.rect(0, 0, 300, 56);

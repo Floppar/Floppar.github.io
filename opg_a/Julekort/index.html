@@ -10,7 +10,9 @@
 </head>
 
 <body>
-
+    <div class="tilbake">
+        <a href="/index.html">Tilbake til portefølje</a>
+    </div><br>
     <h1>Julekort generator</h1>
     <div class="back">
         <form>
@@ -21,8 +23,6 @@
             <input type="text" id="overskrift" placeholder="Skriv kva du vil seie:">
             <label>Frå:</label>
             <input type="text" id="frå" placeholder="Frå:">
-            <label for="fargeval">Vel farge til tekst:</label>
-            <input type="color" id="fargeval" style="width: 50px;" />
             <label for="file" class="upload">Opplast din eigen bilete</label>
             <br>
             <input type="file" id="file" accept="image/*" onchange="loadImage(event)">
@@ -31,13 +31,6 @@
 
         <div class="container">
             <canvas id="result" class="Kort">
-
-                <header id="head">
-                    <div class="jul">
-                        <h4>Jule kort</h4>
-                    </div>
-                    <img src="image/julekrans.jpg" id="logo">
-                </header>
 
                 <div class="content">
                     <img src="" id="imgDisplayed">
