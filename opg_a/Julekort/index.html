@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Julekort</title>
+</head>
+<body>
+
+    <h1>Julekort generator</h1>
+    <div class="back">
+     <form>
+        <h3>Skriv inn her</h3>
+        <label>Til:</label>
+        <input type="text" id="til" placeholder="Til:">
+        <label>Tekst:</label>
+        <input type="text" id="overskrift" placeholder="Skriv kva du vil seie:">
+        <label>Frå:</label>
+        <input type="text" id="frå" placeholder="Frå:">
+        <label for="fargeval">Vel farge til tekst:</label>
+        <input type="color" id="fargeval" style="width: 50px;"/>
+        <label for="file" class="upload">Opplast din eigen bilete</label>
+        <br>
+        <input type="file" id="file" accept="image/*" onchange="loadImage(event)">
+     </form>
+        <button type="submit" id="preview">Sjå</button>
+
+    <div class="container">
+        <canvas id="result" class="Kort">
+
+            <header id="head">
+                <div class="jul">
+                    <h4>Jule kort</h4>
+                </div>
+                <img src="image/julekrans.jpg" id="logo">
+            </header>
+
+            <div class="content">
+                <img src="" id="imgDisplayed">
+                <ul>
+                    <li id="overskrv"></li>
+                    <li id="till"></li>
+                    <li id="fråå"></li>
+                    <span>God Jul!</span>
+                </ul>
+            </div>
+
+        </canvas>
+        <button id="down">Last ned</button>
+    </div>
+
+    <script src="js/java.js"></script>
+</body>
+
+</html>
