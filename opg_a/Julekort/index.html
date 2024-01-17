@@ -18,11 +18,11 @@
         <form>
             <h3>Skriv inn her</h3>
             <label>Til:</label>
-            <input type="text" id="til" placeholder="Til:">
+            <input type="text" id="ToID" placeholder="Til:">
             <label>Tekst:</label>
-            <input type="text" id="overskrift" placeholder="Skriv kva du vil seie:">
+            <input type="text" id="WriteID" placeholder="Skriv kva du vil seie:">
             <label>Frå:</label>
-            <input type="text" id="frå" placeholder="Frå:">
+            <input type="text" id="FromID" placeholder="Frå:">
             <label for="file" class="upload">Opplast din eigen bilete</label>
             <br>
             <input type="file" id="file" accept="image/*" onchange="loadImage(event)">
@@ -35,9 +35,9 @@
                 <div class="content">
                     <img src="" id="imgDisplayed">
                     <ul>
-                        <li id="overskrv"></li>
-                        <li id="till"></li>
-                        <li id="fråå"></li>
+                        <li id="heading"></li>
+                        <li id="to"></li>
+                        <li id="from"></li>
                         <span>God Jul!</span>
                     </ul>
                 </div>

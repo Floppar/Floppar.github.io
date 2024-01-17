@@ -13,20 +13,20 @@ const logo = document.getElementById("logo");
 
 function prev(){
 
-    let overskrift = document.getElementById("overskrift").value;
-    let til = document.getElementById("til").value;
-    let frå = document.getElementById("frå").value;
+    let WriteID = document.getElementById("WriteID").value;
+    let ToID = document.getElementById("ToID").value;
+    let FromID = document.getElementById("FromID").value;
 
 
 
-    const overskrv = document.getElementById("overskrv");
-    const till = document.getElementById("till");
-    const fråå = document.getElementById("fråå");
+    const heading = document.getElementById("heading");
+    const to = document.getElementById("to");
+    const from = document.getElementById("from");
 
 
-    overskrv.innerHTML = overskrift;
-    till.innerHTML = til;
-    fråå.innerHTML = frå;
+    heading.innerHTML = WriteID;
+    to.innerHTML = ToID;
+    from.innerHTML = FromID;
 
 
     ctx.fillStyle = "rgb(33, 64, 39)";
@@ -37,10 +37,10 @@ function prev(){
     ctx.font = "16px Arial";
     ctx.drawImage(image, 230, 3, 50, 50);
     ctx.fillStyle = "#000";
-    ctx.fillText(overskrv.innerHTML, 110, 115);
-    ctx.fillText(till.innerHTML, 15, 45);
+    ctx.fillText(heading.innerHTML, 110, 115);
+    ctx.fillText(to.innerHTML, 15, 45);
     ctx.fillText("Frå: ", 10, 180);
-    ctx.fillText(fråå.innerHTML, 40, 180);
+    ctx.fillText(from.innerHTML, 40, 180);
 }
 
 
