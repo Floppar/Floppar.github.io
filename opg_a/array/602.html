@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>602</title>
+</head>
+<body>
+    <label for="price">Pris:</label>
+    <input type="number" id="price">
+    <button onclick="calculate()">Regn ut</button>
+    <p>Pris inkl moms: </p>
+    <p id="newPrice"></p>
+    <script>
+        function calculate() {
+            let price = document.getElementById("price").value;
+            let newPrice = price * 1.25;
+            newPrice = newPrice.toFixed(2);
+            document.getElementById("newPrice").innerText = newPrice;
+        }
+    </script>
+</body>
+</html>
