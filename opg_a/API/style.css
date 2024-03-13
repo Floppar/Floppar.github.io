@@ -1,0 +1,26 @@
+body {
+    background-color: beige;
+    margin: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin-left: 5px;
+}
+
+button {
+    width: auto;
+    background-color: green;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
