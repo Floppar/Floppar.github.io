@@ -37,3 +37,8 @@ a {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+#url {
+    min-width: 30vw;
+    max-width: 70vw;
+}
