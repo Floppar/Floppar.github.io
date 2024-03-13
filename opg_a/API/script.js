@@ -17,7 +17,7 @@ async function getQuote() {
     }
     // Get the current element (or value) of "joke" and display it between two '' 
     if (author) {
-        document.getElementById("author").innerText = author;
+        document.getElementById("author").innerText = "- " + author;
     }
     // Same here but with the author name
 }
