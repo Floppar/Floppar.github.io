@@ -4,6 +4,7 @@ body {
     overflow: 0;
     overflow-x: hidden;
     background-color: rgb(44, 98, 55);
+    text-decoration: none;
 }
 
 h3 {
@@ -64,6 +65,7 @@ button {
     padding: 10px;
     position:fixed;
     border: solid 1px black;
+    text-decoration: none;
 }
 
 form span {
@@ -197,6 +199,12 @@ input {
 select {
     background-color: white;
     border: solid black;
+}
+ 
+a {
+    text-decoration: none;
+    font-size: 1vw;
+    text-align: center;
 }
 
 

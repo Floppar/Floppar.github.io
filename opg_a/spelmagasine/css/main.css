@@ -235,14 +235,14 @@ input[type=radio] {
 .tilbake {
     border: solid 2px orange;
     border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
     margin-bottom: -50px;
     background-color: beige;
     color: black;
     overflow: hidden;
     width: 110px;
-    font-size: 30px;
+    font-size: 2vw;
     padding: 10px;
     position: fixed;
 }
