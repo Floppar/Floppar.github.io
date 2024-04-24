@@ -20,4 +20,4 @@ getQuote();
 
 function refresh() {
     location.reload()
-}
+};

@@ -257,3 +257,43 @@ a.konsimg {
     margin-top: 200px;
     margin-bottom: 50px;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .navbar {
+        display: none;
+    }
+    .tab {width: 100%;}
+
+    .topnav {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+    }
+    .dropdown-content {position: fixed;}
+    .title {margin-top: 13%;}
+
+    ol {
+        font-size: 5vw;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .subjectContainer {
+        grid-template-columns: auto;
+    }
+    .videocontainer {
+        grid-template-columns: auto;
+    }
+    img.konsimg {
+        max-width: 100%;
+    }
+
+    p {
+        font-size: +120%;
+    }
+}
