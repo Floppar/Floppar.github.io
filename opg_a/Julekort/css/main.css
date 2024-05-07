@@ -6,7 +6,7 @@ body {
 }
 
 h3 {
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 .back {
@@ -29,9 +29,9 @@ input {
     margin-bottom: 1em;
     width: 60%;
     font-size: 16px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 0px;
     border-radius: 5px;
-    padding: 3px;
+    padding: 4px;
 }
 
 #file {
@@ -43,10 +43,14 @@ input {
 
 .upload,
 button {
-    color: black;
-    background: rgb(234, 234, 38);
+    color: green;
+    background: yellow;
     padding: 5px;
     cursor: pointer;
+}
+button :hover{
+    color: black;
+    background-color: lightblue;
 }
 
 .topnav {
@@ -74,21 +78,16 @@ form span {
 
 h1 {
     font-size: 50px;
-    border-radius: 10px;
-    background-color: brown;
-    border: solid 2px black;
+    color: black;
     overflow: hidden;
     margin-left: 100px;
-    padding: 10px;
-    padding-right: 20px;
     width: 30%;
 }
 
 label {
     color: white;
-    padding: 4px;
-    background-color: green;
-    border: solid 2px black;
+    padding: 5px;
+    background-color: #04aa6d;
     border-radius: 10px;
 }
 
@@ -97,13 +96,19 @@ label {
     margin-left: 2em;
     padding-left: 20px;
     padding-right: 20px;
+    border-radius: 10px;
+    color: #04aa6d;
+    border: 0px;
+}
+#preview a:hover{
+    color: black;
+    background-color: lightblue;
 }
 
 #result {
     position: relative;
     width: 70%;
     margin-left: 15%;
-    border: 2px solid black;
     background-color: white;
     background: white;
     border-radius: 12px;
@@ -189,16 +194,13 @@ header::after {
     }
 }
 
-
 input {
-    background-color: white;
-    border: solid black;
+    background-color: yellow;
     margin-top: 10px;
 }
 
 select {
     background-color: white;
-    border: solid black;
 }
  
 a {

@@ -16,9 +16,13 @@ img {
 .topnav {
     background-color: yellow;
     overflow: hidden;
+    position: fixed;
+    top: 1%;
+    width: 100%;
 }
 
 .topnav a {
+    display: block;
     float: left;
     color: green;
     text-align: center;
