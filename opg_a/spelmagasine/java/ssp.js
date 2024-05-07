@@ -94,20 +94,18 @@ const game = () => {
         if (playerScore > computerScore) {
             result.style.fontSize = '2rem';
             result.innerText = 'Du vant'
-            result.style.color = '#308D46';
-            result.style.background = 'beige';
+            result.style.color = 'white';
+            result.style.background = '#04aa6d';
             result.style.padding = '10px';
             result.style.borderRadius = '10px';
-            result.style.border = 'solid 2px black';
         }
         else if (playerScore < computerScore) {
             result.style.fontSize = '2rem';
             result.innerText = 'Du tapte';
             result.style.color = 'red';
-            result.style.background = 'beige';
+            result.style.background = '#04aa6d';
             result.style.padding = '10px';
             result.style.borderRadius = '10px';
-            result.style.border = 'solid 2px black';
         }
         else {
             result.style.fontSize = '2rem';
@@ -116,7 +114,6 @@ const game = () => {
             result.style.background = 'grey';
             result.style.padding = '10px';
             result.style.borderRadius = '10px';
-            result.style.border = 'solid 2px black';
         }
         reloadBtn.innerText = 'Prøv igjen?';
         reloadBtn.style.display = 'flex'

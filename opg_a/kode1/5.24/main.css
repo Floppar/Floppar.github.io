@@ -3,7 +3,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-decoration: none;
-    margin-top: 5vh;
     display: block;
     text-align: center;
 }
@@ -57,19 +56,21 @@ button:hover {
     padding: 4px;
 }
 
-.tilbake {
-    background-color: green;
-    border-radius: 5px;
-    padding: 8px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: white;
-    width: 15vw;
-    font-size: 1.5vw;
+.topnav {
+    background-color: yellow;
+    overflow: hidden;
 }
 
-.tilbake a {
-    color: white;
+.topnav a {
+    float: left;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: lightblue;
+    color: black;
 }

@@ -1,5 +1,7 @@
 body {
-    background-color: brown;
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img {
@@ -9,4 +11,23 @@ img {
     border-bottom: 40px solid white;
     box-shadow: 10px 10px 5px black;
     margin-bottom: 50px;
+}
+
+.topnav {
+    background-color: yellow;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: lightblue;
+    color: black;
 }

@@ -290,6 +290,11 @@ a.konsimg {
     .subjectContainer {
         grid-template-columns: auto;
     }
+
+    .subjectContainer a:hover {
+        scale: 1.2;
+    }
+
     .videocontainer {
         grid-template-columns: auto;
     }
