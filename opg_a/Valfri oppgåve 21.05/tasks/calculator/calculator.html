@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="../../../../css/main.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="/kons.html">Tilbake til portefølje</a>
+        <a href="/index.html">Tilbake til valoppgåvane</a>
+        <div class="dropdown">
+            <button class="dropbtnact">Oppgåver
+                <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+
+                <a href="../nedtelling/nedtelling.html">Nedtellingsoppgåve</a>
+                <a href="calculator.html" class="active">Kalkulatoroppgåve</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <input type="number" name="fyrste tal" id="firstnum">
+    </div>
+    <div>
+        <label for="type">Kva skal du gjera?</label>
+        <select name="type" id="mathtype">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="divide">/</option>
+            <option value="multiply">*</option>
+        </select>
+    </div>
+    <div><input type="number" name="andre tal" id="secondnum"></div>
+
+    <div><button id="solver" onclick="solvebtn()">Trykk for å løse problemet</button></div>
+    <p id="answer"></p>
+
+    <button id="refresh" onclick="refresh()">Trykk her for å prøve på nytt</button>
+    <script src="calc.js"></script>
+</body>
+
+</html>

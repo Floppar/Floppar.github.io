@@ -116,7 +116,8 @@ const game = () => {
             result.style.borderRadius = '10px';
         }
         reloadBtn.innerText = 'Prøv igjen?';
-        reloadBtn.style.display = 'flex'
+        reloadBtn.style.display = 'flex';
+        reloadBtn.style.border = '0px';
         reloadBtn.addEventListener('click', () => {
             window.location.reload();
         })
