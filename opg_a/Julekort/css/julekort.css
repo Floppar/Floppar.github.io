@@ -1,16 +1,5 @@
-body {
-    background-image: url("/images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-decoration: none;
-}
-
-h3 {
-    color: white;
-}
-
 .back {
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 form,
@@ -21,7 +10,7 @@ form,
 
 .container {
     margin-top: 3em;
-    color: #000;
+    color: black;
 }
 
 input {
@@ -31,7 +20,7 @@ input {
     font-size: 16px;
     border: 0px;
     border-radius: 5px;
-    padding: 4px;
+    padding: 0.4vw;
 }
 
 #file {
@@ -41,35 +30,16 @@ input {
     position: absolute;
 }
 
-.upload,
-button {
+.upload, button {
     color: green;
     background: yellow;
     padding: 5px;
     cursor: pointer;
 }
+
 button :hover{
     color: black;
     background-color: lightblue;
-}
-
-.topnav {
-    background-color: yellow;
-    overflow: hidden;
-}
-
-.topnav a {
-    float: left;
-    color: green;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    background-color: lightblue;
-    color: black;
 }
 
 form span {
@@ -78,15 +48,15 @@ form span {
 
 h1 {
     font-size: 50px;
-    color: black;
     overflow: hidden;
     margin-left: 100px;
     width: 30%;
+    margin-top: -10px;
 }
 
 label {
     color: white;
-    padding: 5px;
+    padding: 0.3vw;
     background-color: #04aa6d;
     border-radius: 10px;
 }
@@ -97,11 +67,9 @@ label {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
-    color: #04aa6d;
-    border: 0px;
 }
-#preview a:hover{
-    color: black;
+#preview :hover{
+    font: black;
     background-color: lightblue;
 }
 
@@ -171,8 +139,12 @@ header::after {
 }
 
 #down {
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: +20px;
+    padding-right: +20px;
 }
 
 @media only screen and (max-width: 768px) {

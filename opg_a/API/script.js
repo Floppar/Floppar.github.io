@@ -24,3 +24,8 @@ async function getQuote() {
 
 getQuote();
 // Get the value and display it
+
+
+function refresh() {
+    location.reload()
+};

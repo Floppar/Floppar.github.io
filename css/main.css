@@ -1,30 +1,51 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
 body {
     background-image: url("/images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    text-decoration: none;
 }
 
-h1 {
+button {
+    color: green;
+    background-color: yellow;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightblue;
+}
+
+input {
+    margin: 10px;
+}
+
+select {
+    background-color: yellow;
+    color: green;
+    border: 0px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+select:hover {
+    background-color: lightblue;
+    border: 0px;
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5vw;
 }
 
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 img {
-    width: auto;
+    max-width: 30vw;
     height: 250px;
     padding: 4px;
 }
@@ -41,27 +62,16 @@ img {
 }
 
 video {
-    width: auto;
-    height: 400px;
-    margin-top: 50px;
+    max-width: 30vw;
+    height: 0 auto;
+    max-height: 80vh;
 }
 
 .videocontainer {
     display: grid;
     grid-template-columns: auto auto auto auto;
-}
-
-.navbar {
-    background-color: yellow;
-    overflow: hidden;
-}
-
-.navbar a {
-    float: left;
-    font-size: 16px;
+    margin: 0 auto;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
 .topnav {
@@ -103,6 +113,7 @@ video {
 
 .tab button:hover {
     background-color: lightblue;
+    color: black;
 }
 
 .tab button.active {
@@ -131,27 +142,27 @@ img.konsimg {
 a.konsimg {
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 100px;
 }
 
 .subjectBox {
-    border: 2px solid green;
     padding-left: 10px;
     padding-right: 10px;
+    max-width: 30vw;
 }
 
 .subjectContainer {
     display: grid;
     grid-template-columns: auto auto auto;
     padding-bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
 }
-
 
 .dropbtn {
     background-color: #04AA6D;
     color: green;
-    padding: 16px;
+    padding: 14px 16px;
     font-size: 16px;
     border: #04aa6d;
 }
@@ -159,7 +170,7 @@ a.konsimg {
 .dropbtnact {
     background-color: #04AA6D;
     color: white;
-    padding: 16px;
+    padding: 14px 16px;
     font-size: 16px;
     border: #04aa6d;
 }
@@ -191,7 +202,7 @@ a.konsimg {
 .navbar a:hover,
 .dropdown:hover .dropbtn {
     background-color: lightblue;
-    color: white;
+    color: black;
 }
 
 /* For hovering over a tab*/
@@ -208,7 +219,7 @@ a.konsimg {
 .dropdown-content a {
     color: #04aa6d;
     background-color: yellow;
-    padding: 12px 16px;
+    padding: 12px 14px;
     text-decoration: none;
     display: block;
     float: none;
@@ -227,8 +238,9 @@ a.konsimg {
     display: block;
 }
 
+/* For the removed navbar at the bottom of the page*/
 
-
+/*
 .navbar {
     overflow: hidden;
     position: fixed;
@@ -249,26 +261,35 @@ a.konsimg {
 
 .navbar a:hover {
     background-color: lightblue;
-    color: white;
+    color: black;
 }
 
 .navbar a.active {
     background-color: #04AA6D;
-    color: white;
+    color: black;
 }
+*/
 
 .aboutbox {
     margin-top: 200px;
     margin-bottom: 50px;
 }
 
+.centered {
+    margin: 0 auto;
+    text-align: center;
+}
 
 @media only screen and (max-width: 600px) {
 
-    .navbar {
-        display: none;
+    * {
+        text-align: center;
+        margin: 0 auto;
     }
-    .tab {width: 100%;}
+
+    .tab {
+        width: 100%;
+    }
 
     .topnav {
         position: fixed;
@@ -276,8 +297,14 @@ a.konsimg {
         left: 0%;
         width: 100%;
     }
-    .dropdown-content {position: fixed;}
-    .title {margin-top: 13%;}
+
+    .dropdown-content {
+        position: fixed;
+    }
+
+    .title {
+        margin-top: 13%;
+    }
 
     ol {
         font-size: 5vw;
@@ -285,21 +312,23 @@ a.konsimg {
 
     img {
         max-width: 100%;
+        width: 100%;
+        height: 20vh;
     }
 
     .subjectContainer {
+        width: 100%;
         grid-template-columns: auto;
-    }
-
-    .subjectContainer a:hover {
-        scale: 1.2;
     }
 
     .videocontainer {
         grid-template-columns: auto;
     }
+
     img.konsimg {
         max-width: 100%;
+        width: 100px;
+        height: auto;
     }
 
     p {
