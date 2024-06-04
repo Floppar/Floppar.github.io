@@ -11,7 +11,7 @@ const logo = document.getElementById("logo");
 
 
 
-function prev(){
+function prev() {
 
     let WriteID = document.getElementById("WriteID").value;
     let ToID = document.getElementById("ToID").value;
@@ -30,6 +30,7 @@ function prev(){
 
 
     ctx.fillStyle = "rgb(33, 64, 39)";
+    // CanvasRenderingContex2D
     ctx.rect(0, 0, 300, 56);
     ctx.fill();
     ctx.fillStyle = "white";
@@ -53,11 +54,13 @@ function loadImage(event) {
 const download = document.getElementById("down");
 download.addEventListener("click", function () {
 
-    if (window.navigator.msSaveBlob) {
-
+    if (window.navigator.msSaveBlob)
+    // Checks if the browser supports mrSaveBlob function.
+    {
         window.navigator.msSaveBlob(canvas.msToBlob(), "Julekort.png");
+        // Saves the card (canvas) as an .png
     } else {
-
+        // Browser doesn't support mrSaveBlob function.
         const a = document.createElement("a");
         document.body.appendChild(a);
         a.href = canvas.toDataURL();
