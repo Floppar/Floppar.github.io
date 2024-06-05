@@ -280,6 +280,17 @@ a.konsimg {
     text-align: center;
 }
 
+#backbutton {
+    padding: 1.1vw;
+    font-size: 2vw;
+    border-radius: 10px;
+    color: green;
+}
+
+#backbutton a:hover {
+    color: black;
+}
+
 @media only screen and (max-width: 600px) {
 
     * {
