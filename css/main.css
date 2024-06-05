@@ -316,6 +316,7 @@ a.konsimg {
         font-size: 4vw;
         width: 100%;
     }
+
     .topnav :hover {
         background-color: lightblue;
         color: black;
@@ -324,11 +325,10 @@ a.konsimg {
     .dropbtn {
         max-height: 10vh;
         height: 6.5vh;
-        width: auto;
         margin: 0 auto;
         font-size: 4vw;
         float: right;
-        
+
     }
 
     .dropdown {
@@ -338,12 +338,7 @@ a.konsimg {
     .dropbtnact {
         max-height: 10vh;
         height: 11.5vw;
-        width: 100%;
         font-size: 4vw;
-    }
-
-    .dropdown {
-        width: 100%;
     }
 
     .dropdown-content {

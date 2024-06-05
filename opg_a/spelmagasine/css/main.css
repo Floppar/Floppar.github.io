@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    text-decoration: none; /* So no underline under links */
+    text-decoration: none;
+    /* So no underline under links */
 }
 
 h1 {
@@ -22,8 +23,10 @@ img {
 input[type=radio] {
     border: 0px;
     width: 10%;
-    height: 2em; /*em means "original value" times whatever number */
+    height: 2em;
+    /*em means "original value" times whatever number */
 }
+
 /* End of base elements */
 
 /*-------------------------------------*/
@@ -31,10 +34,12 @@ input[type=radio] {
 
 /* Start of elements */
 .game {
-    display: flex; /* Press the boxes inside togheter */
+    display: flex;
+    /* Press the boxes inside togheter */
     flex-direction: column;
     height: 100vh;
-    width: 100vw; /* % of width relative to the screen*/
+    width: 100vw;
+    /* % of width relative to the screen*/
     align-items: center;
     margin-top: 50px;
 }
@@ -46,7 +51,9 @@ input[type=radio] {
     font-size: 20px;
     margin: 30px;
     color: white;
-} /* How many rounds left for you */
+}
+
+/* How many rounds left for you */
 
 .score {
     display: flex;
@@ -54,15 +61,19 @@ input[type=radio] {
     justify-content: space-evenly;
     position: absolute;
     top: 70px;
-    z-index: 1; /* Basically which layer is in front of the other layer. Higher z-index makes you stand more in the front */
+    z-index: 1;
+    /* Basically which layer is in front of the other layer. Higher z-index makes you stand more in the front */
 }
 
-.p-count, /* player's count */
+.p-count,
+/* player's count */
 .d-count {
     text-align: center;
     font-size: 1.5rem;
     margin-top: 1rem;
-} /* computer's score */
+}
+
+/* computer's score */
 
 .title {
     font-size: 100px;
@@ -76,21 +87,25 @@ input[type=radio] {
     padding-top: 50px;
 }
 
-.gamescreen { 
+.gamescreen {
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
     margin-top: 100px;
 }
-.gamescreen a{ 
+
+.gamescreen a {
     padding-top: 10px;
     background-color: yellow;
     color: #04aa6d;
 }
-.gamescreen :hover{ 
+
+.gamescreen :hover {
     background-color: lightblue;
     color: black;
-} /* Main menu's boxes and links */
+}
+
+/* Main menu's boxes and links */
 
 .block {
     padding: 10px;
@@ -103,7 +118,9 @@ input[type=radio] {
     font-size: 30px;
     padding-bottom: 10px;
     border-radius: 10px;
-} /* For the Om Meg box */
+}
+
+/* For the Om Meg box */
 
 /* Stein Saks Papir specific */
 .options {
@@ -111,7 +128,9 @@ input[type=radio] {
     width: 50vw;
     justify-content: space-evenly;
     margin-top: 2rem;
-} /* For the three options in SSP */
+}
+
+/* For the three options in SSP */
 
 .stein,
 .papir,
@@ -123,15 +142,19 @@ input[type=radio] {
     color: green;
     cursor: pointer;
     font-size: 20px;
-    border:0px;
-} /*for the SSP buttons */
+    border: 0px;
+}
+
+/*for the SSP buttons */
 
 
 .move {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 10px;
-} /* The text over the buttons */
+}
+
+/* The text over the buttons */
 
 .reload {
     display: none;
@@ -140,7 +163,9 @@ input[type=radio] {
     background: yellow;
     border-radius: 10px;
     cursor: pointer;
-} /* If you want to play SSP again ;) */
+}
+
+/* If you want to play SSP again ;) */
 
 .result {
     margin-top: 20px;
@@ -166,7 +191,7 @@ input[type=radio] {
     grid-gap: 20px;
     margin-top: 140px;
     margin-bottom: 20px;
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 30%;
     width: 40vw;
@@ -196,7 +221,9 @@ input[type=radio] {
     color: brown;
     z-index: 2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-} /* Quiz'es title. Needed it's own element to avoit overlapping */
+}
+
+/* Quiz'es title. Needed it's own element to avoit overlapping */
 
 .questions {
     font-size: 30px;
@@ -209,6 +236,7 @@ input[type=radio] {
     padding: 5px;
     margin-bottom: 10px;
 }
+
 .subjectBox {
     border: 0;
 }
@@ -224,6 +252,7 @@ input[type=radio] {
     margin: 20px;
     margin-top: 130px;
 }
+
 /* End of elements */
 
 /* At-rule */
@@ -241,4 +270,6 @@ input[type=radio] {
     .options {
         width: 100vw;
     }
-} /* To make the results appear in the SSP after completing it. */
+}
+
+/* To make the results appear in the SSP after completing it. */

@@ -11,7 +11,7 @@ async function getQuote() {
     // The object is set to what value the link got
 
     if (url) {
-        document.getElementById("url").src=url;
+        document.getElementById("url").src = url;
     }
 }
 

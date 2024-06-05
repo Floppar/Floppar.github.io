@@ -30,14 +30,15 @@ input {
     position: absolute;
 }
 
-.upload, button {
+.upload,
+button {
     color: green;
     background: yellow;
     padding: 5px;
     cursor: pointer;
 }
 
-button :hover{
+button :hover {
     color: black;
     background-color: lightblue;
 }
@@ -68,7 +69,8 @@ label {
     padding-right: 20px;
     border-radius: 10px;
 }
-#preview :hover{
+
+#preview :hover {
     font: black;
     background-color: lightblue;
 }
@@ -174,7 +176,7 @@ input {
 select {
     background-color: white;
 }
- 
+
 a {
     text-decoration: none;
     font-size: 1vw;
