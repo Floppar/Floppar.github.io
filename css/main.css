@@ -286,6 +286,11 @@ a.konsimg {
         text-align: center;
         margin: 0 auto;
     }
+
+    a {
+        font-size: 10vw;
+    }
+
     h1 {
         font-size: 9vw;
     }
@@ -302,27 +307,43 @@ a.konsimg {
         position: fixed;
         top: 0%;
         width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        max-height: 10vh;
-        height: 6.5vh;
+        height: 11.5vw;
         display: grid;
-        grid-template-columns: auto auto auto auto;
-        overflow: hidden;
+        grid-template-columns: auto auto auto;
     }
+
+    .topnav a {
+        font-size: 4vw;
+        width: 100%;
+    }
+    .topnav :hover {
+        background-color: lightblue;
+        color: black;
+    }
+
     .dropbtn {
         max-height: 10vh;
         height: 6.5vh;
         width: auto;
-        max-width: 100%;
         margin: 0 auto;
-        padding: 100%;
+        font-size: 4vw;
+        float: right;
+        
     }
+
+    .dropdown {
+        align-items: center;
+    }
+
     .dropbtnact {
         max-height: 10vh;
-        height: 6.5vh;
-        width: 100;
-        max-width: 100%;
+        height: 11.5vw;
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    .dropdown {
+        width: 100%;
     }
 
     .dropdown-content {
@@ -348,6 +369,7 @@ a.konsimg {
         width: 100%;
         grid-template-columns: auto;
     }
+
     .subjectBox {
         margin-top: 5vh;
         max-width: 100vw;
