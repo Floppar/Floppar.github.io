@@ -50,8 +50,27 @@ img {
     padding: 4px;
 }
 
-.img1 {
+video {
+    max-width: 30vw;
+    height: 0 auto;
+    max-height: 40vw;
+}
+
+img.konsimg {
+    height: 30vw;
     width: auto;
+    padding: 0%;
+    margin-top: 1.5vh;
+    max-width: 30vw;
+}
+
+/* Start of class */
+
+.videocontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .reach {
@@ -61,18 +80,17 @@ img {
     width: 150px;
 }
 
-video {
-    max-width: 30vw;
-    height: 0 auto;
-    max-height: 80vh;
+.aboutbox {
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
 
-.videocontainer {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+.centered {
     margin: 0 auto;
     text-align: center;
 }
+
+/* Start of topnav*/
 
 .topnav {
     background-color: yellow;
@@ -98,6 +116,7 @@ video {
     color: white;
 }
 
+/* Start of tab*/
 
 .tab button {
     display: block;
@@ -128,21 +147,6 @@ video {
     border-left: none;
     height: 300px;
     display: none;
-}
-
-img.konsimg {
-    height: 400px;
-    width: auto;
-    padding: 0%;
-    margin-top: 10px;
-    max-width: 500px;
-    max-height: 500px;
-}
-
-a.konsimg {
-    text-decoration: none;
-    color: black;
-    margin-bottom: 100px;
 }
 
 .subjectBox {
@@ -238,6 +242,14 @@ a.konsimg {
     display: block;
 }
 
+/* Start of ID*/
+#backbutton {
+    padding: 1.1vw;
+    font-size: 2vw;
+    border-radius: 10px;
+}
+
+
 /* For the removed navbar at the bottom of the page*/
 
 /*
@@ -270,27 +282,6 @@ a.konsimg {
 }
 */
 
-.aboutbox {
-    margin-top: 200px;
-    margin-bottom: 50px;
-}
-
-.centered {
-    margin: 0 auto;
-    text-align: center;
-}
-
-#backbutton {
-    padding: 1.1vw;
-    font-size: 2vw;
-    border-radius: 10px;
-    color: green;
-}
-
-#backbutton a:hover {
-    color: black;
-}
-
 @media only screen and (max-width: 600px) {
 
     * {
@@ -309,6 +300,29 @@ a.konsimg {
     h3 {
         font-size: 5vw;
     }
+
+    ol {
+        font-size: 5vw;
+    }
+
+    img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    img.konsimg {
+        max-width: 100%;
+        width: 100px;
+        height: auto;
+        width: 100%;
+    }
+
+    p {
+        font-size: +120%;
+    }
+
+    /* Start of class*/
 
     .tab {
         width: 100%;
@@ -334,8 +348,7 @@ a.konsimg {
     }
 
     .dropbtn {
-        max-height: 10vh;
-        height: 6.5vh;
+        height: 11.5vw;
         margin: 0 auto;
         font-size: 4vw;
         float: right;
@@ -343,7 +356,7 @@ a.konsimg {
     }
 
     .dropdown {
-        align-items: center;
+        align-items: left;
     }
 
     .dropbtnact {
@@ -357,18 +370,8 @@ a.konsimg {
     }
 
     .title {
-        margin-top: 8vh;
-        margin-bottom: -5vh;
-    }
-
-    ol {
-        font-size: 5vw;
-    }
-
-    img {
-        max-width: 100%;
-        width: 100%;
-        height: auto;
+        margin-top: 15vw;
+        margin-bottom: 2vw;
     }
 
     .subjectContainer {
@@ -385,14 +388,27 @@ a.konsimg {
         grid-template-columns: auto;
     }
 
+    /* Start of ID*/
+
+    #backbutton {
+        padding: 1.5vw;
+        font-size: 5vw;
+        border-radius: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 1920px) and (max-width: 1920px) {
+
     img.konsimg {
-        max-width: 100%;
-        width: 100px;
-        height: auto;
-        width: 100%;
+        height: 400px;
+        margin-top: 10px;
+        max-width: 500px;
+        max-height: 500px;
     }
 
-    p {
-        font-size: +120%;
+    .title {
+        font-size:100px;
     }
+
 }
