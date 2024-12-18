@@ -1,4 +1,4 @@
-const gifts = [    "Ein personleg gåvebok",    "Ein opplevelsesgåve som fallskjermhopping",    "Eit abonnement på favorittmagasinet",    "Ein fine klokke",    "Ein deilig parfyme",    "Bøker fra favorittforfatteren",    "Ei ny teknologisk gadget",    "Eit gåvekort til ein restaurant",    "Ein kosegenser",    "Heimelagde småkaker",    "Eit medlemskap i ein klubb eller forening",    "Eit kunstverk fra ein lokal kunstner",    "Ein reise til ein spennande destinasjon",    "Eit sett med kvalitetskaffe eller te"];
+const gifts = [    "Ein personleg gåvebok",    "Ein opplevelsesgåve som fallskjermhopping",    "Eit abonnement på favorittmagasinet",    "Ein fine klokke",    "Ein deilig parfyme",    "Bøker frå favorittforfatteren",    "Ei ny teknologisk gadget",    "Eit gåvekort til ein restaurant",    "Ein kosegenser",    "Heimelagde småkaker",    "Eit medlemskap i ein klubb eller forening",    "Eit kunstverk frå ein lokal kunstner",    "Ein reise til ein spennande destinasjon",    "Eit sett med kvalitetskaffe eller te"];
 
 document.getElementById('generateBtn').addEventListener('click', function() {
     const randomIndex = Math.floor(Math.random() * gifts.length);
